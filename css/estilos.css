@@ -1,0 +1,58 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body  {
+    color: #8A8A8A;
+    font-family: 'Segoe UI';
+}
+H1{
+    text-align: center;
+    font-size: 150px;
+}
+
+H2{
+    text-align: center;
+    font-size: 65px;
+}
+
+H3{
+    text-align: center;
+    font-size: 30px;
+}
+
+nav{
+    display: flex;
+    background-color:#5B8DF2;
+    padding:8px;
+    justify-content: space-between;
+    align-items: left;
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+nav li {
+    list-style: none;
+    padding-left: 20px;
+}
+nav ul {
+    display: flex;
+}
+nav img{
+    height: 50px;
+}
+.logoredes{
+    width : 38px;
+}
+
+.contenedorlogoredes{
+    text-align: center;
+}
+
+
+
+
+
+
