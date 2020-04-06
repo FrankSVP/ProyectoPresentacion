@@ -10,16 +10,19 @@ body  {
 H1{
     text-align: center;
     font-size: 150px;
+
 }
 
 H2{
     text-align: center;
     font-size: 65px;
+ 
 }
 
 H3{
     text-align: center;
     font-size: 30px;
+    text-align: center;
 }
 
 nav{
@@ -51,8 +54,52 @@ nav img{
     text-align: center;
 }
 
+.claseh1{
+  margin-top: -1px;
+}
 
 
+.claseh2{
+    margin-top: -100px;
+  }
 
+  
+.claseh3{
+    margin-top: -35px;
+  }
 
+  .grillasuperior{
+    display: grid;
+    grid-gap: 50px;
+  }
+
+  .columna1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .columna2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+   
+  }
+.grillaskills{
+    display: grid;
+    grid-gap: 10px;
+    text-align: center;
+}
+.colskill1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.colskill2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.colskill3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.dimensionimgskill{
+    width: 230px;
+}
 
